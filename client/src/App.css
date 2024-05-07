@@ -1,0 +1,633 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  border: border-box;
+}
+
+body {
+  font-family: "Roboto-bold", sans-serif;
+  
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+
+#navbar {
+  width: 100%;
+  height: 125px;
+  background-color: #e20001;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.nav1 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.nav1 img {
+  width: 140px;
+  height: 35px;
+}
+
+.icons span {
+  font-size: 35px;
+  color: antiquewhite;
+}
+
+.nav2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.nav2 div span {
+  padding-left: 6px;
+}
+
+.h-icon {
+  color: aliceblue;
+}
+
+#volleyball {
+  margin-left: 12px;
+}
+
+
+
+
+
+
+h3 {
+  padding-top: 18px;
+  padding-left: 16px;
+  font-size: 20px;
+  color: #1a1a1a;
+}
+
+.box {
+  border: 2px solid #b8bec4;
+  width: 92%;
+  height: 175px;
+  margin: 4%;
+  border-radius: 15px
+}
+
+.l-name {
+  font-size: 20px;
+  font-weight: 600;
+  color: #292929;
+  background-color: #f6f8fa;
+
+  padding-left: 14px;
+  padding-top: 5px;
+
+
+  border-bottom-right-radius: 43px;
+  padding-right: 70px;
+  padding-bottom: 5px;
+
+}
+
+.line-first {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+#cloth-icon {
+  margin-right: 20px;
+}
+
+.line-sec {
+  display: flex;
+  margin: 10px;
+}
+
+.log-img {
+  width: 58px;
+  height: 40px;
+  background-size: cover;
+  border-radius: 10%
+}
+
+
+.team-name-sort {
+  font-size: 20px;
+  font-weight: 600;
+  padding-left: 15px;
+  padding-top: 7px;
+  color: #2b2323;
+}
+
+.img1 {
+  background-image: url(./img/mmi.png);
+  width: 50px;
+  height: 32px;
+
+}
+
+.img2 {
+  background-image: url(./img/rr.png);
+  width: 50px;
+  height: 32px;
+}
+
+.sort2 {
+  font-size: 20px;
+  font-weight: 600;
+  padding-right: 6px;
+  padding-top: 7px;
+  color: #2b2323;
+}
+
+.time1 {
+  margin: auto;
+}
+
+.team-name-full {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+
+.box-line {
+  border: 1px solid #cacfd5;
+  margin-top: inherit;
+}
+
+.box-last {
+  margin: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mega-price {
+  display: flex;
+  border-top: 2px solid #e86e30;
+  border-bottom: 2px solid #e86e30;
+  border-left: 2px solid #e86e30;
+  border-radius: 10px;
+  padding: 2px 5px 2px 5px;
+  font-weight: 600;
+
+}
+
+.mega {
+  margin-right: 5px;
+}
+
+h1 {
+  text-align: center;
+    font-size: inherit;
+    font-weight: bolder;
+    
+    color: #1a1a1a;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: auto;
+    width: 70%;
+    box-shadow: 0 0 8px 0 chocolate;
+
+}
+
+.prime-box {
+  background-color: #f4f4f4;
+  width: 90%;
+  margin: 5%;
+  height: 110px;
+  margin-top: 50px;
+}
+
+
+
+.step-number {
+  color: #fff;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border: 4px solid #fff;
+  border-radius: 40px;
+
+  background-color: #17c749;
+  position: relative;
+  left: 16px;
+  top: -20px;
+}
+
+
+.step-titel-box {
+  font-size: 16px;
+  color: #1a1a1a;
+  line-height: 20px;
+  font-weight: 600;
+  text-align: left;
+  position: relative;
+  left: 10px;
+
+}
+
+.titel-img-box {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+.button-img img {
+  width: 149px;
+  height: 72px;
+  margin-top: -56px;
+  position: relative;
+  right: 16px;
+  border-radius: 4px;
+  top: -20px;
+  /* display: grid; */
+  /* grid-template-columns: 1.3fr 1fr; */
+  box-shadow: 0 0 8px 0 #9e9e9e;
+}
+
+.titel-box {
+  font-size: 14px;
+  position: relative;
+  left: 10px;
+  margin-top: 8px;
+}
+
+
+
+#prime-membership {
+
+  background-color: #e20001;
+
+  color: white;
+  width: 120px;
+  border-radius: 20px;
+  height: 34px;
+  font-weight: bold;
+  margin: auto;
+  font-size: initial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer{
+  width: 100%;
+  height: 120px;
+  background-color: #0f0f0f;
+  position: relative;
+  bottom: 0;
+  margin-top: 35px;
+  text-align: center;
+
+  
+}
+
+
+
+#footer-img{
+  width: 150px;
+  margin-top: 12px;
+}
+
+#footer-heading{
+ color: white;
+}
+
+
+
+
+.payment-nav{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #e20001;
+  padding: 5px 0px;
+}
+#payment-img{
+  width: 150px;
+  margin-top: 12px;
+}
+
+#payment-heading{
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.payment-option-box{
+  display: flex;
+    justify-content: space-around;
+    box-shadow: 0 0 8px 0 #9e9e9e;
+    background-color: #ffffff;
+    width: 70%;
+    height: 40px;
+    align-items: center;
+    margin: auto;
+    margin-top: 60px;
+    border: 2px solid #b8bec4;
+    border-radius: 15px;
+
+}
+
+.card-logo{
+  display: flex;
+}
+
+#c-heading{
+  margin-top: 5px;
+  padding-left: 8px;
+}
+
+#pay{
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+
+.main-upi-box{
+  border: 2px solid #b8bec4;
+   width: 70%;
+    margin: auto;
+    margin-top: 40px;
+    background: #ffffff;
+    box-shadow: 0 0 8px 0 #9e9e9e;
+}
+
+.upi-box{
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.upi-payment-box{
+  display: flex;
+}
+
+.upi-box img{
+  width: 30px;
+  padding: 2px;
+  border: 2px solid #cacfd5;
+border-radius: 5px;
+}
+
+#upi-heading{
+  margin-top: 5px;
+  padding-left: 8px;
+  font-size: medium;
+}
+
+#upi{
+  margin-left: 60px;
+  margin-top: 15px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  font-size: larger;
+}
+
+
+.card-navbar{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #274bcc;
+  padding: 5px 0px;
+  padding-bottom: 20px;
+}
+
+
+.container{
+  width: 80%;
+  margin: auto;
+  border: 2px solid #cacfd5;
+  box-shadow: 0 0 8px 0 #9e9e9e;
+  margin-top: 50px;
+}
+
+.input{
+  width: 80%;
+  height: 40px;
+  border-radius: 5px;
+  margin-top: 8px;
+  font-size: larger;
+  margin-left: 8%;
+  border: 1px solid;
+  text-align: center;
+}
+
+
+.card-expire-cvv{
+  height: 40px;
+  border-radius: 5px;
+  margin-top: 8px;
+  
+  margin-left: 8%;
+  width: 80%;
+  display: flex;
+  
+  justify-content: center;
+}
+
+.expire{
+  width: 40%;
+  margin-right: 8px;
+  border-radius: 5px;
+  border: 1px solid;
+  text-align: center;
+}
+
+.cvv{
+  width: 40%;
+  margin-right: 8px;
+  border-radius: 5px;
+  border: 1px solid;
+  text-align: center;
+}
+
+#card-pay-button{
+  margin: 20px 30%;
+    color: white;
+    background-color: #274bcc;
+    padding: 8px 45px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 1px solid;
+}
+
+.debit-footer{
+  width: 100%;
+height: 120px;
+background-color: #0f0f0f;
+position: fixed;
+bottom: 0;
+margin-top: 35px;
+text-align: center;
+}
+
+
+.otp-heading{
+  margin: 20px;
+  font-size: smaller;
+  font-weight: bold;
+  color: #485569;
+}
+
+
+
+
+.user-box{
+  border: 2px solid #b8bec4;
+    width: 75%;
+    height: 200px;
+    margin: auto;
+    margin-top: 40px;
+    background: #ffffff;
+    box-shadow: 0 0 8px 0 #9e9e9e;
+}
+
+
+.user-id-box{
+  display: flex;
+    font-size: large;
+    font-weight: bolder;
+    margin-top: 40px;
+}
+
+
+.user-number{
+  border: 2px solid;
+  border-radius: 4px;
+  padding: 1px 5px;
+}
+
+.user-id{
+  margin: 3px 22px;
+}
+
+#note-heading{
+  margin-top: 60px;
+    padding: 6px 20px;
+    color: red;
+}
+/*
+
+
+      <section id='navbar'>
+        <div className="nav1">
+
+          <img src="./img/img1.png.webp" alt="fail to load img 1" />
+
+          <div className="icons"> <span className='icon' class="material-symbols-outlined">
+            notifications_active
+          </span>
+
+            <span className='icon' class="material-symbols-outlined">
+              account_balance_wallet
+            </span>
+
+          </div>
+
+        </div>
+
+        <div className="nav2"> <div className='icons'>
+
+          <span className='icon' class="material-symbols-outlined">
+            sports_baseball
+          </span> <h5 className='h-icon'>CRICKET</h5></div>
+
+          <div className='icons'>
+            <span className='icon' class="material-symbols-outlined">
+              sports_kabaddi
+            </span>
+            <h5 className='h-icon'>Kabaddi</h5></div>
+
+          <div className='icons'>
+
+            <span className='icon' class="material-symbols-outlined">
+              sports_soccer
+            </span><h5 className='h-icon'>Football</h5></div>
+
+          <div className='icons'>
+            <span className='icon' id='volleyball' class="material-symbols-outlined">
+              sports_volleyball
+            </span><h5 className='h-icon '>VOLLEYBALL</h5></div>
+        </div> </section>
+
+        <h3>Upcoming Matches</h3>
+
+<div className="box">
+  <div className="line-first"> <div className="l-name">ECS T10 Portugal </div>
+    
+    <span id='cloth-icon' class="material-symbols-outlined">
+      apparel
+    </span>
+  </div>
+
+
+  <div className="line-sec">
+    <div className="log-img img1"></div>
+    <div className="team-name-sort sort1">MI-r</div>
+
+    <div className="time1">01:30AM</div>
+  
+    <div className="team-name-sort sort2">RR-r</div>
+    <div className="log-img img2"></div>
+  </div>
+<div className="team-name-full">
+  <div className="full1">Mumbai Indians</div>
+  <div className="full2">Rajasthan Royals</div>
+</div>
+
+<div className="box-line"></div>
+
+
+<div className="box-last">
+  <div className="mega-price"> <div className="mega">MEGA</div> 
+  <div className="price">₹3.2 Crores
+</div>
+</div>
+<div className="bell"><span class="material-symbols-outlined">
+notification_add
+</span></div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+.wrapper::-webkit-scrollbar{
+display: none;
+
+------main color----#f6f8fa-----
+
+}
+.wrapper .item{
+    min-width: 110px;
+    height: 110px;
+    line-height: 110px;
+    text-align: center;
+    background-color: #e20001;
+    margin-right: 2px;
+}*/
